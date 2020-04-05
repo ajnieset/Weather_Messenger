@@ -208,6 +208,17 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 version = "2.1.1"
 
 [[package]]
+category = "main"
+description = "Python wrapper for Geocod.io API"
+name = "pygeocodio"
+optional = false
+python-versions = "*"
+version = "0.11.1"
+
+[package.dependencies]
+requests = ">=1.0.0"
+
+[[package]]
 category = "dev"
 description = "Python parsing module"
 name = "pyparsing"
@@ -317,7 +328,7 @@ python-versions = "*"
 version = "0.1.9"
 
 [metadata]
-content-hash = "d435195e7a07200de064c188813ca5e479e532fca87cbe8fe1343d2f63980162"
+content-hash = "43a7e573e75a62d3c97704abef7896ebe4ec2adbd5287b60d3c81764ecee09fc"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -416,6 +427,10 @@ pycodestyle = [
 pyflakes = [
     {file = "pyflakes-2.1.1-py2.py3-none-any.whl", hash = "sha256:17dbeb2e3f4d772725c777fabc446d5634d1038f234e77343108ce445ea69ce0"},
     {file = "pyflakes-2.1.1.tar.gz", hash = "sha256:d976835886f8c5b31d47970ed689944a0262b5f3afa00a5a7b4dc81e5449f8a2"},
+]
+pygeocodio = [
+    {file = "pygeocodio-0.11.1-py3-none-any.whl", hash = "sha256:da5e6087f75c9bba314b63fbee6213378ec6d69582108ad7450eb302bdc89213"},
+    {file = "pygeocodio-0.11.1.tar.gz", hash = "sha256:3da9d1cb9848d18cb8547be47fe4582c4a833d790fced84332f326bbbe6ab9a3"},
 ]
 pyparsing = [
     {file = "pyparsing-2.4.6-py2.py3-none-any.whl", hash = "sha256:c342dccb5250c08d45fd6f8b4a559613ca603b57498511740e65cd11a2e7dcec"},

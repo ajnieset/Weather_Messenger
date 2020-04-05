@@ -11,6 +11,7 @@ repository = "https://github.com/ajnieset/Weather_Messenger"
 python = "^3.8"
 requests = "^2.23.0"
 toml = "^0.10.0"
+pygeocodio = "^0.11.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
