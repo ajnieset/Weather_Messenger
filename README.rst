@@ -8,5 +8,5 @@ Description
 
 Powered By
 ----------
-  - Dark Sky: https://darksky.net/poweredby/
-  - Geocodio: https://www.geocod.io/
+  - `Dark Sky <https://darksky.net/poweredby/>`_
+  - `Geocodio <https://www.geocod.io/>`_
