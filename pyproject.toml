@@ -3,6 +3,9 @@ name = "weather_message"
 version = "0.1.0"
 description = "A weather app that gathers weekly weather data and formats a message to be sent out."
 authors = ["Austin Nieset <ajnieset@gmail.com>"]
+readme = "README.rst"
+homepage = "https://github.com/ajnieset/Weather_Messenger"
+repository = "https://github.com/ajnieset/Weather_Messenger"
 
 [tool.poetry.dependencies]
 python = "^3.8"
